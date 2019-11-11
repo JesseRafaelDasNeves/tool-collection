@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="samukeras.doneto.io/doneto/doneto.min.css" />
+        <script type="text/javascript">
+
+            function testar() {
+                debugger;
+                var teste = confirm("Samuel não não é legal?");
+                var res   = teste ? "Sim" : "Não";
+                
+                alert(res);
+                
+            }
+
+        </script>
+    </head>
+
+    <body>
+        
+        <form>
+            <table>
+                <tbody>
+                    
+                </tbody>
+                
+                <tr>
+                    <td>
+                        <label>Login</label>
+                        <input type="text" id="login" />
+                    </td>
+                </tr>
+                <td>
+                    <label>Senha</label>
+                    <input type="text" id="senha"  >
+                </td>
+                </tr>	
+                <td colspan="2">
+                    <input type="button" value="Testar" onclick="testar()" >
+                </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+
+</html>
